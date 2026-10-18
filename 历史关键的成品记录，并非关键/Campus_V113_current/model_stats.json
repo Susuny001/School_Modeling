@@ -1,0 +1,375 @@
+{
+  "summary": {
+    "scene_file": "campus_unified_V113.glb",
+    "material_groups": 70,
+    "parts_before_merge": 19388,
+    "vertices": 283511,
+    "faces": 489152,
+    "features": [
+      "stepped flagpole monument instead of prior fountain proxy",
+      "straight-faceted grey administration building with source-like glass towers, gabled atrium and entrance colonnade",
+      "source-like east science wing with moderate roof dome, central glass gable and elevated four-column gateway",
+      "secondary ceremonial court moved away from the science-wing dome to avoid the previous overlap",
+      "geometry-only Chinese pavilion with bracket/eave/rafter detail",
+      "four source-matched table-tennis slabs arranged 2x2 in the west garden",
+      "two north teaching bars plus three south north-south teaching bars instead of the former west-garden intrusions",
+      "northeast pitched-glass assembly hall and adjoining service annex",
+      "eight-court 4x2 basketball complex with green hoops, concrete joints and perimeter fence",
+      "capsule running track, football markings, stepped terrace and central truss-roof grandstand",
+      "modeled AC condensers, relief brick courses, roof repairs/vents, external galleries, tiled/lighted covered corridor, block-by-block plaza paving, road repairs and vehicles",
+      "zero UV textures, zero images, zero samplers, zero TEXCOORD/COLOR attributes"
+    ]
+  },
+  "groups": {
+    "ground": {
+      "parts": 1,
+      "vertices": 1156,
+      "faces": 2178
+    },
+    "road": {
+      "parts": 6,
+      "vertices": 56,
+      "faces": 88
+    },
+    "road2": {
+      "parts": 6,
+      "vertices": 48,
+      "faces": 72
+    },
+    "metal": {
+      "parts": 982,
+      "vertices": 8640,
+      "faces": 13352
+    },
+    "plaza_red": {
+      "parts": 14,
+      "vertices": 524,
+      "faces": 992
+    },
+    "plaza_light": {
+      "parts": 34,
+      "vertices": 1380,
+      "faces": 2628
+    },
+    "plaza_dark": {
+      "parts": 2,
+      "vertices": 896,
+      "faces": 1792
+    },
+    "plaza": {
+      "parts": 40,
+      "vertices": 1760,
+      "faces": 3368
+    },
+    "stone_warm": {
+      "parts": 32,
+      "vertices": 860,
+      "faces": 1592
+    },
+    "plaza_teal": {
+      "parts": 4,
+      "vertices": 384,
+      "faces": 752
+    },
+    "plaza_joint": {
+      "parts": 55,
+      "vertices": 3968,
+      "faces": 7744
+    },
+    "stone": {
+      "parts": 213,
+      "vertices": 4052,
+      "faces": 7252
+    },
+    "flagpole": {
+      "parts": 1,
+      "vertices": 50,
+      "faces": 96
+    },
+    "gold": {
+      "parts": 64,
+      "vertices": 896,
+      "faces": 1536
+    },
+    "flag_red": {
+      "parts": 1,
+      "vertices": 45,
+      "faces": 128
+    },
+    "admin_wall": {
+      "parts": 1,
+      "vertices": 8,
+      "faces": 12
+    },
+    "roof": {
+      "parts": 16,
+      "vertices": 128,
+      "faces": 192
+    },
+    "glass_silver": {
+      "parts": 984,
+      "vertices": 7870,
+      "faces": 11804
+    },
+    "admin_trim": {
+      "parts": 169,
+      "vertices": 1406,
+      "faces": 2136
+    },
+    "admin_wall2": {
+      "parts": 22,
+      "vertices": 176,
+      "faces": 264
+    },
+    "glass_blue": {
+      "parts": 12,
+      "vertices": 96,
+      "faces": 144
+    },
+    "glass_light": {
+      "parts": 8,
+      "vertices": 64,
+      "faces": 96
+    },
+    "admin_pale": {
+      "parts": 10,
+      "vertices": 332,
+      "faces": 624
+    },
+    "brick2": {
+      "parts": 732,
+      "vertices": 6024,
+      "faces": 9120
+    },
+    "admin_light": {
+      "parts": 1,
+      "vertices": 8,
+      "faces": 12
+    },
+    "white": {
+      "parts": 44,
+      "vertices": 352,
+      "faces": 528
+    },
+    "red": {
+      "parts": 135,
+      "vertices": 1080,
+      "faces": 1620
+    },
+    "offwhite": {
+      "parts": 1569,
+      "vertices": 12710,
+      "faces": 19144
+    },
+    "glass_roof": {
+      "parts": 2,
+      "vertices": 11,
+      "faces": 6
+    },
+    "green_metal": {
+      "parts": 195,
+      "vertices": 2524,
+      "faces": 4268
+    },
+    "roof2": {
+      "parts": 4,
+      "vertices": 32,
+      "faces": 48
+    },
+    "window_dark": {
+      "parts": 2548,
+      "vertices": 20384,
+      "faces": 30576
+    },
+    "dome": {
+      "parts": 1,
+      "vertices": 642,
+      "faces": 1280
+    },
+    "dome_dark": {
+      "parts": 1891,
+      "vertices": 22730,
+      "faces": 37896
+    },
+    "roof_patch": {
+      "parts": 37,
+      "vertices": 296,
+      "faces": 444
+    },
+    "roof_fade": {
+      "parts": 30,
+      "vertices": 240,
+      "faces": 360
+    },
+    "court_joint": {
+      "parts": 46,
+      "vertices": 368,
+      "faces": 552
+    },
+    "car_dark": {
+      "parts": 14,
+      "vertices": 112,
+      "faces": 154
+    },
+    "dark": {
+      "parts": 178,
+      "vertices": 3564,
+      "faces": 6416
+    },
+    "car_white": {
+      "parts": 30,
+      "vertices": 240,
+      "faces": 330
+    },
+    "car_red": {
+      "parts": 10,
+      "vertices": 80,
+      "faces": 110
+    },
+    "tree_trunk": {
+      "parts": 484,
+      "vertices": 8712,
+      "faces": 15488
+    },
+    "tree_leaf": {
+      "parts": 812,
+      "vertices": 34002,
+      "faces": 64756
+    },
+    "tree_leaf2": {
+      "parts": 936,
+      "vertices": 38666,
+      "faces": 73588
+    },
+    "tree_leaf3": {
+      "parts": 800,
+      "vertices": 33600,
+      "faces": 64000
+    },
+    "mountain": {
+      "parts": 2,
+      "vertices": 574,
+      "faces": 960
+    },
+    "mountain2": {
+      "parts": 1,
+      "vertices": 287,
+      "faces": 480
+    },
+    "urban_dark": {
+      "parts": 11,
+      "vertices": 88,
+      "faces": 132
+    },
+    "urban": {
+      "parts": 11,
+      "vertices": 88,
+      "faces": 132
+    },
+    "wall_warm": {
+      "parts": 687,
+      "vertices": 5496,
+      "faces": 8244
+    },
+    "wall_cool": {
+      "parts": 682,
+      "vertices": 5456,
+      "faces": 8184
+    },
+    "ac_body": {
+      "parts": 2352,
+      "vertices": 18816,
+      "faces": 28224
+    },
+    "ac_grill": {
+      "parts": 392,
+      "vertices": 3136,
+      "faces": 4704
+    },
+    "brick3": {
+      "parts": 696,
+      "vertices": 5568,
+      "faces": 8352
+    },
+    "brick": {
+      "parts": 704,
+      "vertices": 5632,
+      "faces": 8448
+    },
+    "glass": {
+      "parts": 203,
+      "vertices": 1620,
+      "faces": 2428
+    },
+    "red2": {
+      "parts": 54,
+      "vertices": 2106,
+      "faces": 3990
+    },
+    "grass2": {
+      "parts": 1,
+      "vertices": 14,
+      "faces": 24
+    },
+    "grass": {
+      "parts": 2,
+      "vertices": 16,
+      "faces": 24
+    },
+    "path_light": {
+      "parts": 12,
+      "vertices": 1328,
+      "faces": 2608
+    },
+    "path": {
+      "parts": 8,
+      "vertices": 694,
+      "faces": 1356
+    },
+    "grass_dark": {
+      "parts": 2,
+      "vertices": 16,
+      "faces": 24
+    },
+    "blue": {
+      "parts": 46,
+      "vertices": 368,
+      "faces": 552
+    },
+    "court_line": {
+      "parts": 168,
+      "vertices": 8844,
+      "faces": 17072
+    },
+    "court": {
+      "parts": 1,
+      "vertices": 8,
+      "faces": 12
+    },
+    "curb": {
+      "parts": 168,
+      "vertices": 1344,
+      "faces": 2016
+    },
+    "track_apron": {
+      "parts": 1,
+      "vertices": 8,
+      "faces": 12
+    },
+    "track": {
+      "parts": 1,
+      "vertices": 776,
+      "faces": 1552
+    },
+    "field": {
+      "parts": 1,
+      "vertices": 8,
+      "faces": 12
+    },
+    "field2": {
+      "parts": 6,
+      "vertices": 48,
+      "faces": 72
+    }
+  }
+}

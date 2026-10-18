@@ -1,0 +1,39 @@
+{
+  "project": "Campus V113",
+  "entry": "打开地图_V113.html",
+  "model": "campus_unified_V113.glb",
+  "generator": "campus_v113.py",
+  "renderer": "render_compare_v113.py",
+  "controls": {
+    "forward": "W",
+    "left": "A",
+    "backward": "S",
+    "right": "D",
+    "up": "Space",
+    "down": "Left Shift",
+    "exit_mouse_look": [
+      "Alt",
+      "Escape"
+    ],
+    "movement_after_mouse_release": true,
+    "rebindable": true,
+    "mouse_sensitivity_adjustable": true,
+    "speed_adjustable": true,
+    "fov_adjustable": true,
+    "teleport_xyz": true,
+    "supplied_view_presets": 6
+  },
+  "hud_precision": {
+    "xyz_decimals": 1,
+    "yaw_pitch_decimals": 1
+  },
+  "default_fov_degrees": 60,
+  "external_dependencies": 0,
+  "textures": 0,
+  "images": 0,
+  "samplers": 0,
+  "uv_attributes": 0,
+  "vertex_color_attributes": 0,
+  "source_video_usage": "visual reconstruction/reference only; no frame/color extraction into model textures or projected imagery",
+  "strict_visual_status": "NOT PASSED: still distinguishable from the real photographs under the user-required expert-1 criterion"
+}

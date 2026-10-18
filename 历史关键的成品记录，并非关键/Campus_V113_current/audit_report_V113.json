@@ -1,0 +1,188 @@
+{
+  "project": "Campus V113",
+  "viewer": "打开地图_V113.html",
+  "model": "campus_unified_V113.glb",
+  "html_bytes": 12440810,
+  "glb_bytes": 9313772,
+  "sha256_glb": "c8cf01c1477893b490a7aa2a040320718c36900910613d577feba1bebbcb200c",
+  "passed": 35,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "HTML contains no NUL bytes",
+      "ok": true,
+      "detail": "nul_count=0"
+    },
+    {
+      "name": "No external HTML assets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "No network dependencies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "No stale viewer version labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Embedded GLB assignment found",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Embedded GLB byte-identical to standalone GLB",
+      "ok": true,
+      "detail": "sha256=c8cf01c1477893b490a7aa2a040320718c36900910613d577feba1bebbcb200c"
+    },
+    {
+      "name": "JavaScript syntax check (node --check)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Click anywhere enters pointer-lock mouse view",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Alt releases mouse",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Pointer lock exit call",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ESC left to browser pointer-lock handling",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Movement continues outside pointer lock",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "WASD defaults",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Space up / Shift down",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sensitivity setting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Speed setting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "FOV setting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Key rebinding",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Teleport inputs",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Teleport preserves angle by only replacing pos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "HUD coordinates to 0.1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "HUD angles to 0.1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Six supplied view presets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "View preset 6 exact coordinate",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Material metallic factor parsed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Material roughness factor parsed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflective/specular shader enabled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Movement code is not pointer-lock gated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Mouse direction sign audit",
+      "ok": true,
+      "detail": "movementX<0 increases yaw => turns left under +X/+Y convention"
+    },
+    {
+      "name": "Valid GLB 2.0 header",
+      "ok": true,
+      "detail": "version=2, declared=9313772, actual=9313772"
+    },
+    {
+      "name": "GLB JSON chunk parses",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "No textures/images/samplers/UV or vertex-color attributes",
+      "ok": true,
+      "detail": "{'textures': 0, 'images': 0, 'samplers': 0}, texcoord_attributes=0, color_attributes=0"
+    },
+    {
+      "name": "Substantial geometry material groups",
+      "ok": true,
+      "detail": "materials=70"
+    },
+    {
+      "name": "Flagpole GLB material is high-metal / low-roughness",
+      "ok": true,
+      "detail": "metallic=0.92, roughness=0.16"
+    },
+    {
+      "name": "Trimesh reload succeeds with substantial geometry",
+      "ok": true,
+      "detail": "geometry_groups=70, vertices=283511, faces=489152, bounds=[[-396.504638671875, -300.0, -1.251175045967102], [391.8020324707031, 461.26104736328125, 52.75715255737305]]"
+    }
+  ],
+  "runtime_note": "Static/self-contained validation completed in this sandbox. Pointer-lock click behavior was source-verified but not browser-automated because the sandbox does not provide a user-interactive local-file browser session."
+}

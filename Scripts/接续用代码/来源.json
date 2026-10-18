@@ -1,0 +1,11 @@
+{
+  "geometry_prism.py": "v143_closed_prism.py: closed_prism",
+  "glb_mmap.py": "read_actual_glb_mmap146.py: ActualGLB",
+  "mesh_parts.py": "build_science_facade150.py: cub/getparts; common_code/generation/build_science_internal_routes174_r9.py: polys/flat_cut/subtract_volume",
+  "semantic_native.py": "semantic_native_v144.py + actual160/174 runtime group-origin/empty-material adaptations; inventory output parameterized",
+  "fbx_export.py": "fbx_export_hook_v149.py, fbx_export_hook_v169.py, common_code/runtime/fbx_export_hook_v174_transparency.py; inventory input parameterized",
+  "camera_tools.py": "render_v144_site_focus.py: camera/calibrated; formerly global scene/cam now arguments",
+  "viewer": "current delivered HTML with embedded GLB emptied; repeated146..174 gzip embedding core",
+  "glb/encode.mjs": "common_code/runtime/compress175.mjs encoding core, without one-off175 source/material-restoration/output paths",
+  "unity": "common_code/unity_export174/Editor/CampusV174Batch.cs and unity_export175/Editor/CampusV175Batch.cs: common material isolation; currently deployed CampusIndependentMaterial175.cs"
+}

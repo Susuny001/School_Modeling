@@ -1,0 +1,5 @@
+using UnityEngine;using UnityEditor;using System.Collections.Generic;
+public static class CampusIndependentMaterial175 {
+ [MenuItem("Campus/V175/选中物件独立材质")]
+ static void MakeIndependent(){const string dir="Assets/CampusV175/Materials/Independent";if(!AssetDatabase.IsValidFolder(dir)){System.IO.Directory.CreateDirectory(dir);AssetDatabase.Refresh();}var seen=new HashSet<Renderer>();foreach(var selected in Selection.gameObjects)foreach(var renderer in selected.GetComponentsInChildren<Renderer>(true)){if(!seen.Add(renderer))continue;Undo.RecordObject(renderer,"Independent material");var mats=renderer.sharedMaterials;for(int i=0;i<mats.Length;i++){if(mats[i]==null)continue;var clone=new Material(mats[i]);clone.name=mats[i].name+"_Independent";string path=AssetDatabase.GenerateUniqueAssetPath(dir+"/"+clone.name+".mat");AssetDatabase.CreateAsset(clone,path);mats[i]=clone;}renderer.sharedMaterials=mats;PrefabUtility.RecordPrefabInstancePropertyModifications(renderer);}AssetDatabase.SaveAssets();}
+}

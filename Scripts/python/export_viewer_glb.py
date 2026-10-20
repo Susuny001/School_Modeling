@@ -2,6 +2,8 @@
 
 For the bundled campus viewer. The native .blend retains all editable items.
 No mesh simplification, transform rewriting or material joining in the source file.
+Materials can opt into viewer normals with ``viewer_smooth_shading=True``;
+the viewer allocates normal buffers only for those material batches.
 """
 from pathlib import Path
 import json
@@ -71,6 +73,8 @@ def export_viewer_glb(path):
                 color[3]=min(color[3],float(bsdf.inputs['Alpha'].default_value))
         if transmission:color[3]=min(color[3],max(.08,1-.85*transmission))
         material={'name':mat.name if mat else 'default','doubleSided':True,'pbrMetallicRoughness':{'baseColorFactor':color,'metallicFactor':metallic,'roughnessFactor':roughness}}
+        if mat and mat.get('viewer_smooth_shading', False):
+            material['extras']={'campus_smooth_shading':True}
         if color[3]<.99:material['alphaMode']='BLEND'
         index=len(doc['materials']);doc['materials'].append(material)
         pa=store(v,'VEC3',5126);ia=store(f,'SCALAR',5125)
